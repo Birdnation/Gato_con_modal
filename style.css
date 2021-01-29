@@ -1,0 +1,222 @@
+body{
+    line-height: 0;
+    background-color:#fdcae1;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .columna .fila {
+    display: flex;
+    flex-direction: row;
+  }
+  .columna .fila .celda {
+    border-style: none;
+    /* border-color: #fdfd96; */
+    font-size: xx-large;
+  }
+
+  
+.juego{
+    margin: 0.1vw;
+    width: 10vw;
+    height:10vw;
+    border:none;
+    box-shadow: 0.5vw 0vw 0.5vw 0vw rgba(0, 0, 0, 0.788);   
+    background-color:rgba(255, 255, 255, 0.61);
+    font-size:150%;
+    text-shadow: 0.2vw 0vw 0.2vw 0vw #ff696165;
+    color: #FF6961;
+    
+}
+
+#volver{
+    width: auto;
+    height: 100%;
+    line-height: 2em;
+    margin-bottom: 5%;
+    box-shadow: 0.2vw 0vw 0.2vw 0vw rgba(0, 0, 0, 0.788);   
+    background-color:rgba(255, 255, 255, 0.61);
+    font-weight: 900;
+    color: black;
+    border: none;
+}
+
+.container{
+    background-color: #FF6961;
+    margin-top: 1vw;
+    width:max-content; 
+    border-radius: 5%;
+    box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.61);   
+}
+
+.linea{
+    position: absolute;
+    height: 100%;
+    width: 0.25em;
+    border: 1em solid black;
+}
+
+.puntuacion2, .turno{
+    width: 100%;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.288);
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+
+}
+
+span, h3{
+    font-weight: 900;
+    color:white;
+}
+
+#yes, #no{
+    padding:0.5em;
+    border: 0.3em solid white;
+    border-radius:1em
+}
+
+#yes:hover, #no:hover, a:hover{
+    border-color: blue;
+    color: blue;
+}
+  
+
+#boxes .window {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+}
+  
+  
+/* Customize your modal window here, you can add background image too */
+#boxes #dialog {
+    align-items: center;
+    width:50%; 
+    height:70%;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 1vw;
+}
+.dialogoWin{
+    text-align: center;
+    margin-top: 5vw;
+    color:white;
+    font-weight: 900;
+}
+
+.volverJugar{
+    text-align: center;
+    position: relative;
+    top: 4vw;
+    color:white;
+    font-weight: 900;
+    font-size: 150%;
+}
+
+.volverJugar2{
+    text-align: center;
+    position: relative;
+    top: 8vw;
+}
+
+a{
+    color:white;
+    font-weight: 900;
+    font-size: 150%;
+    
+}
+
+
+.columna .fila .celda1 {
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda2 {
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda3 {
+    border-bottom-width: 5px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda4 {
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda5 {
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda6 {
+    border-bottom-width: 5px;
+    border-right-width: 0px;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda7 {
+    border-bottom-width: 0px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda8 {
+    border-bottom-width: 0px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
+  .columna .fila .celda9 {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+  }
